@@ -66,6 +66,10 @@ header{
     margin-bottom: 5%;
 }
 
+.box#one{
+    background-color: teal;
+}
+
 hr{
     border-top: dotted black 1px;
 }
@@ -75,6 +79,7 @@ hr{
     flex-flow: column;
     line-height: 150%;
     margin: 2%;
+    font-size: 1.5rem;
 }
 
 .section1{
@@ -82,17 +87,33 @@ hr{
     justify-content: space-evenly;
     align-items: center;
     margin: 5% auto;
+    font-size: 1.3rem;
+
+}
+
+.dotted{
+    border-bottom: 2px dotted lightgrey;
+    margin-right: 7%;
+}
+h2{
+    margin: 2% auto;
 }
 
 .button{
-    padding: 10px;
-    border-radius: 25%;
+    padding: 2% 6%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    background-color: white;
+    font-size: 1rem;
+    border: 2px solid;
 }
 header nav{
     display: flex;
     flex-grow: 2;
     justify-content: space-between;
     margin-left: 5%;
+    margin-bottom: -3%;
+    font-size: 1.5rem;
 }
 
 header nav a{
@@ -171,7 +192,12 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+p{
+    font-size: 1.3rem;
+}
+.together{
+    margin-bottom: 3%;
+}
 footer {
     width: 100%;
     background: black;
