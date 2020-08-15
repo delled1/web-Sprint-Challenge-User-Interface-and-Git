@@ -63,8 +63,8 @@ html, body {
     margin-right: 4%;
 }
 
-.large-img{
-    margin-bottom: 5%;
+header{
+    margin-bottom: 2%;
 }
 
 .box#one{
@@ -106,7 +106,7 @@ hr{
     flex-flow: column;
     line-height: 150%;
     margin: 2%;
-    margin-top: -5%;
+    margin-top: -2%;
     font-size: 1.5rem;
 }
 
