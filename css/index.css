@@ -56,10 +56,11 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%
 }
-header{
+.logo-nav{
     display: flex;
     align-items: center;
     margin: 5% auto;
+    margin-right: 4%;
 }
 
 .large-img{
@@ -69,7 +70,33 @@ header{
 .box#one{
     background-color: teal;
 }
-
+.box#two{
+    background-color: gold;
+}
+.box#three{
+    background-color: cadetblue;
+}
+.box#four{
+    background-color: coral;
+}
+.box#five{
+    background-color: crimson;
+}
+.box#six{
+    background-color: forestgreen;
+}
+.box#seven{
+    background-color: darkorchid;
+}
+.box#eight{
+    background-color: hotpink;
+}
+.box#nine{
+    background-color: indigo;
+}
+.box#ten{
+    background-color: dodgerblue;
+}
 hr{
     border-top: dotted black 1px;
 }
@@ -79,6 +106,7 @@ hr{
     flex-flow: column;
     line-height: 150%;
     margin: 2%;
+    margin-top: -5%;
     font-size: 1.5rem;
 }
 
@@ -86,7 +114,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 5% auto;
+    margin: 3% 2%;
     font-size: 1.3rem;
 
 }
@@ -102,14 +130,14 @@ h2{
 .button{
     padding: 2% 6%;
     border-radius: 10px;
-    margin: 1rem 0;
+    margin: 5% 0;
     background-color: white;
     font-size: 1rem;
     border: 2px solid;
 }
 header nav{
     display: flex;
-    flex-grow: 2;
+    flex-grow: 1;
     justify-content: space-between;
     margin-left: 5%;
     margin-bottom: -3%;
